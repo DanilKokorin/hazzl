@@ -1,0 +1,168 @@
+body{
+  		margin: 0;
+  	}
+  	.content{
+  		display: flex;
+  		margin: 1.8%;
+  	}
+  	.puzzle{
+  		width: 350px;
+    	height: 350px;
+   	 	overflow: hidden;
+    	border-radius: 20px;
+    	background-color: #eff7ce;
+    	display: flex;
+    	flex-wrap: wrap;
+    	align-content: space-around;
+    	justify-content: space-around;
+  	}
+  	.puzzle__item{
+  	    width: 114px;
+  	    height: 114px;
+  	    display: flex;
+  	    align-items: center;
+    	justify-content: center;
+    	cursor: pointer;
+  	}
+  	.fa-puzzle-piece{
+  	    color: #fff;
+  	    font-size: 31px;
+  	}
+    .puzzle__item_hidden{
+    	opacity: 0;
+    }
+    .puzzle__item_pink{
+    	background-color: rgb(230, 55, 130);
+    }
+    .puzzle__item_blue{
+    	background-color: rgb(34, 164, 220);
+    }
+    .puzzle__item_orange{
+    	background-color: rgb(247, 171, 41);
+    }
+    .puzzle__item_green{
+    	background-color: rgb(170, 199, 46);
+    }
+    .info-item{
+    	flex: 1;
+    	margin-left: 1.5%;
+    }
+    .form__select{
+    	border: 2px solid #e6ecf5;
+	    border-radius: 5px;
+	    padding: 10px;
+	    -webkit-appearance: none; 
+	    -moz-appearance: none;
+	    appearance: none;
+	    background: url(img/arrow-down.5297f72d.svg) no-repeat;
+	    width: 100%;
+	    background-position: calc(100% - 10px) 50%;
+	    background-size: 13px;
+	    cursor: pointer;
+	    flex: 1;
+    }
+    .form__select_grey{
+     	background-color: #e6ecf5;
+    }
+    .form *{
+    	font-size: 14px;
+    	font-family: Roboto;
+    }
+    .form__title{
+    	color: #313643;
+    	font-weight: normal;
+    }
+    .form__fill-field{
+    	display: flex;
+    }
+    .form__label{
+	    align-items: center;
+	    justify-content: center;
+	    margin: 0;
+	    width: 38px;
+	    background: #e6ecf5;
+	    color: #313643;
+	    margin-bottom: 10px;
+	    border-radius: 5px 0 0 5px;
+    	display: flex;
+	}
+	.form__input{
+	    padding: 10px;
+	    flex: 1;
+	    margin-bottom: 10px;
+	    border-radius: 0 5px 5px 0;
+	    border: 2px solid #e6ecf5;
+	}
+	*:focus{
+		outline: 0;
+	}
+	.picture-puzzle{
+		margin-top: 4px;
+	}
+	.form__block-img{
+		width: 100px;
+	    height: 100px;
+	    background: #e6ecf5;
+	    border-radius: 5px;
+		display: flex;
+		justify-content: center;
+	    align-items: center;
+	    cursor: pointer;
+	}
+	.form__download-img{
+		display: flex;
+	}
+	.form__button-download {
+		width: 129px;
+	    height: 41px;
+	    border: 2px solid #e6ecf5;
+	    border-radius: 5px;
+	    color: #313643;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    cursor: pointer;
+	}
+	.form__boot-block {
+    	margin-left: 2%;
+	}
+	a{
+		color: #22a4dc;
+	}
+	p {
+	    line-height: 1.4;
+	    margin-bottom: 0;
+	}
+	.form__details{
+		display: flex;
+	    background-color: #e6ecf5;
+	    border-radius: 5px;
+	    padding: 12px;
+	    margin-bottom: 10px;
+	}
+	.form__details-number {
+    	margin-left: 2%;
+	}
+	.form__span{
+		margin-left: 35%;
+	}
+	.form__label-title {
+	    width: 150px;
+	    display: flex;
+	    align-items: center;
+	}
+	.input__value{
+		margin: 0;
+		border-radius: 5px;
+	}
+	.fill-field{
+		margin-bottom: 10px;
+	}
+	.number-times{
+		justify-content: space-between;
+	}
+	@media (max-width: 991px) {
+  		.puzzle {
+  			display: none;
+  		}
+	}

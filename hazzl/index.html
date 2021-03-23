@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+ 	<div class="content">
+ 		<div class="puzzle">
+ 			<div class="puzzle__item puzzle__item_hidden">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 			<div class="puzzle__item puzzle__item_pink">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 			<div class="puzzle__item puzzle__item_blue">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 			<div class="puzzle__item puzzle__item_orange">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 			<div class="puzzle__item puzzle__item_green">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 			<div class="puzzle__item puzzle__item_pink">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 			<div class="puzzle__item puzzle__item_blue">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 			<div class="puzzle__item puzzle__item_orange">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 			<div class="puzzle__item puzzle__item_green">
+ 				<i class="fas fa-puzzle-piece"></i>
+ 			</div>
+ 		</div>
+ 		<div class="info-item">
+ 			<form class="form">
+ 				<select class="form__select form__select_grey">
+ 					<option>Пазл</option>
+ 				</select>
+ 				<h3 class="form__title">Название</h3>
+ 				<div class="form__fill-field">
+ 					<label class="form__label">Ru</label>
+ 					<input placeholder="Имя" type="text" class="form__input">
+ 				</div>
+ 				<div class="form__fill-field">
+ 					<label class="form__label">En</label>
+ 					<input placeholder="Name" type="text" class="form__input">
+ 				</div>
+ 				<h3 class="form__title picture-puzzle">Картинка пазла</h3>
+ 				<div class="form__download-img">
+ 					<div class="form__block-img">
+ 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="21" height="21" viewBox="0 0 17 17">
+						<g>
+						</g>
+						<path d="M13 10v-10h-13v13h13v-3zM1 1h11v8h-0.755l-2.564-3.319-1.159 1.214-2.248-3.881-3.576 5.986h-0.698v-8zM9.982 9h-7.119l2.398-4.014 2.064 3.564 1.275-1.337 1.382 1.787zM1 12v-2h11v2h-11zM17 3v13h-13v-1.984h1v0.984h11v-11h-2v-1h3z" fill="#fff"/>
+						</svg>
+ 					</div>
+ 					<div class="form__boot-block">
+ 						<label for="img-download" class="form__button-download">Загрузить</label>
+ 						<p>Или <a href="">Выбрать из коллекции</a><br>Разрешение 550*550</p>
+ 					</div>
+ 					<input hidden="hidden" type="file" name="img-download" id="img-download" class="form__input">
+ 				</div>
+ 				<h3 class="form__title">Сколько деталей у пазла</h3>
+ 				<div class="form__details">
+ 					<span>по Горизонтали</span>
+ 					<span class="form__details-number">3</span>
+ 					<span class="form__span">по Вертикали</span>
+ 					<span class="form__details-number">3</span>
+ 				</div>
+ 				<div class="form__fill-field fill-field">
+ 					<label class="form__label-title">Может ли награда выдавать купоны</label>
+ 					<select class="form__select">
+ 						<option>Да</option>
+ 						<option>Нет</option>
+ 					</select>
+ 				</div>
+ 				<div class="form__fill-field">
+ 					<label class="form__label-title">
+ 						Сообщение при получении награды
+ 					</label>
+ 					<input placeholder="Введите значение" type="text" class="input__value form__input">
+ 				</div>
+ 				<h3 class="form__title">Сколько раз может получить один игрок награду</h3>
+ 				<div class="form__details number-times">
+ 					<span>1</span>
+ 					<span>Раз</span>
+ 				</div>
+ 			</form>
+ 		</div>
+ 	</div>
+ 	<script src="https://kit.fontawesome.com/ae855bb7ff.js" crossorigin="anonymous"></script>
+ </body>
+</html>
+ 
